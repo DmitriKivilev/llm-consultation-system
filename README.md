@@ -29,6 +29,6 @@
 
 ![LLMBot](screen/llmbot.png)
 
-![Rabbit](screen/rabbitMQ.png)
+![Rabbit](screen/rabbit.png)
 
 ![All tests](screen/tests.png)
