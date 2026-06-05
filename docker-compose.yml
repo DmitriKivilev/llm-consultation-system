@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: redis
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"      # порт для Celery
+      - "15672:15672"    # порт для веб-интерфейса
+    restart: unless-stopped
