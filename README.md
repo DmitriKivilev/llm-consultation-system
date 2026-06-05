@@ -1,6 +1,6 @@
 # Двухсервисная система LLM-консультаций
 
-##Проект состоит из двух независимых сервисов:
+## Проект состоит из двух независимых сервисов:
 
 ### Auth service - отвечает за регистрацию, выдачу JWT  и логин 
 ### Bot service - бот в телеграмме с ЛЛМ консультациями через сервис OpenRouter
@@ -23,12 +23,12 @@
 4.Готово к работе
 
 ## Скриншоты:
-![Register](reg.png)
-![Login](log.png)
-![Authorize](aut.png)
+![Register](screen/reg.png)
+![Login](screen/log.png)
+![Authorize](screen/aut.png)
 
-![LLMBot](llmbot.png)
+![LLMBot](screen/llmbot.png)
 
-![Rabbit](rabbitMQ.png)
+![Rabbit](screen/rabbitMQ.png)
 
-![All tests](tests.png)
+![All tests](screen/tests.png)
