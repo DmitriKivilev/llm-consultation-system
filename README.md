@@ -30,11 +30,11 @@
 4.Все готово для работы
 
 ## Скриншоты:
-1) Регистрация
+1)Регистрация
 ![Register](screen/reg.png)
 2)Получение JWT
 ![Login](screen/log.png)
-3) Авторизация
+3)Авторизация
 ![Authorize](screen/aut.png)
 4)Демонстрация взаимодействия с ботом
 ![LLMBot](screen/llmbot.png)
